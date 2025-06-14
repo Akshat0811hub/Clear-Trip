@@ -1,0 +1,46 @@
+.bookedDetailsMain{
+    width: 60%;
+    height: 100%;
+    margin-left: 50px;
+    overflow-y: scroll;
+}
+.bookedDetailsOverflow{
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+}
+.bookedDetailsMain::-webkit-scrollbar{
+    display: none;
+}
+.historyButtonOuterDiv,.historylogoOuterDiv{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.Historylogo{
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.FlightHistoryButton,.HotelHistoryButton{
+    padding: 5px 30px;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nowrap{
+    text-wrap: nowrap;
+}
+.bookingdate{
+    font-size: 11px;
+}
+
+@media (max-width:850px){
+    .bookedDetailsMain{
+        width: 100%;
+        margin: 0px 10px;   
+    }
+}
