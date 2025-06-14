@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Clear-Trip/static/css/main.5997fea6.css",
+    "main.js": "/Clear-Trip/static/js/main.64e02320.js",
+    "static/media/error.png": "/Clear-Trip/static/media/error.282698dc21e7a69366f5.png",
+    "static/media/payment.png": "/Clear-Trip/static/media/payment.ad964f99b1739277d966.png",
+    "static/media/paymentdone.jpg": "/Clear-Trip/static/media/paymentdone.3934ef3947ea94de23e9.jpg",
+    "index.html": "/Clear-Trip/index.html",
+    "main.5997fea6.css.map": "/Clear-Trip/static/css/main.5997fea6.css.map",
+    "main.64e02320.js.map": "/Clear-Trip/static/js/main.64e02320.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5997fea6.css",
+    "static/js/main.64e02320.js"
+  ]
+}
