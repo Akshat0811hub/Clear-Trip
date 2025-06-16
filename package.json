@@ -1,7 +1,8 @@
 {
-  "name": "react-18",
+  "name": "clear-trip",
   "version": "1.0.0",
   "description": "React 18 template",
+  "homepage": "https://Akshat0811hub.github.io/Clear-Trip",
   "keywords": [
     "react 18",
     "react",
@@ -15,6 +16,7 @@
     "@mui/lab": "^5.0.0-alpha.162",
     "@mui/material": "^5.15.6",
     "date-fns": "^3.2.0",
+    "gh-pages": "^6.3.0",
     "multi-range-slider-react": "^2.0.7",
     "react": "18.2.0",
     "react-calendar": "^4.8.0",
@@ -31,8 +33,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cypress run  --headless --reporter mochawesome",
-    "eject": "react-scripts eject"
+    "test": "cypress run --headless --reporter mochawesome",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
